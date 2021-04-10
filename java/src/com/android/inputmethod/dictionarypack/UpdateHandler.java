@@ -228,7 +228,15 @@ public final class UpdateHandler {
         // gets from the content-type. We need to circumvent this.
         final String disambiguator = "#" + System.currentTimeMillis()
                 + ApplicationUtils.getVersionName(context) + ".json";
-        final Request metadataRequest = new Request(Uri.parse(metadataUri + disambiguator));
+        //final Request metadataRequest = new Request(Uri.parse(metadataUri + disambiguator));
+        /* SPRD 590443 @{ */
+        Request metadataRequest = null;
+        try {
+            metadataRequest = new Request(Uri.parse(metadataUri + disambiguator));
+        } catch (Exception e) {
+            Log.w(TAG, "metadataRequest initialize error" + e);
+        }
+        /* @} */
         DebugLogUtils.l("Request =", metadataRequest);
 
         final Resources res = context.getResources();

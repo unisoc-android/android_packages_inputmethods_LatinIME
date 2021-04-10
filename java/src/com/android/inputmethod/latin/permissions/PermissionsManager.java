@@ -42,6 +42,9 @@ public class PermissionsManager {
 
     private static PermissionsManager sInstance;
 
+    // UNISOC: Bug 1098081,683245 java.lang.NullPointerException, when request permission of contacts
+    private PermissionsResultCallback mResultCallback;
+
     public PermissionsManager(Context context) {
         mContext = context;
     }
@@ -58,6 +61,11 @@ public class PermissionsManager {
         return ++mRequestCodeId;
     }
 
+    /* UNISOC: Bug 1098081,683245 java.lang.NullPointerException, when request permission of contacts  @{ */
+    public void setResultCallback(PermissionsResultCallback callback){
+        mResultCallback = callback;
+    }
+    /* @} */
 
     public synchronized void requestPermissions(@Nonnull PermissionsResultCallback callback,
                                    @Nullable Activity activity,
@@ -86,6 +94,12 @@ public class PermissionsManager {
         mRequestIdToCallback.remove(requestCode);
 
         boolean allGranted = PermissionsUtil.allGranted(grantResults);
-        permissionsResultCallback.onRequestPermissionsResult(allGranted);
+        /* UNISOC: Bug 1098081,683245 java.lang.NullPointerException, when request permission of contacts  @{ */
+        if(permissionsResultCallback != null){
+            permissionsResultCallback.onRequestPermissionsResult(allGranted);
+        } else {
+            mResultCallback.onRequestPermissionsResult(allGranted);
+        }
+        /* @} */
     }
 }

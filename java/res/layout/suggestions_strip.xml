@@ -48,8 +48,8 @@
             android:id="@+id/important_notice_title"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="6sp"
-            android:textSize="16sp"
+            android:padding="6dp"
+            android:textSize="16dp"
             style="?attr/suggestionWordStyle" />
     </LinearLayout>
     <ImageButton

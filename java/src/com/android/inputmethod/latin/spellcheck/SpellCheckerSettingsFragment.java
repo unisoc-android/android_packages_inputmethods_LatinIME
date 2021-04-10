@@ -53,6 +53,9 @@ public final class SpellCheckerSettingsFragment extends SubScreenFragment
         mLookupContactsPreference = (SwitchPreference) findPreference(
                 AndroidSpellCheckerService.PREF_USE_CONTACTS_KEY);
         turnOffLookupContactsIfNoPermission();
+
+        // UNISOC: Bug 1098081,683245 java.lang.NullPointerException, when request permission of contacts
+        get(getActivity()).setResultCallback(this);
     }
 
     @Override
@@ -82,9 +85,13 @@ public final class SpellCheckerSettingsFragment extends SubScreenFragment
     }
 
     private void turnOffLookupContactsIfNoPermission() {
+        /* UNISOC: Bug 1098081,683245 java.lang.NullPointerException, when request permission of contacts  @{ */
         if (!PermissionsUtil.checkAllPermissionsGranted(
                 getActivity(), Manifest.permission.READ_CONTACTS)) {
             mLookupContactsPreference.setChecked(false);
+        } else {
+            mLookupContactsPreference.setChecked(true);
         }
+        /* @} */
     }
 }

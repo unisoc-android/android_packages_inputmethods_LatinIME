@@ -796,6 +796,13 @@
             android:imeSubtypeExtraValue="KeyboardLayoutSet=qwerty,AsciiCapable,EnabledWhenDefaultIsNotAsciiCapable,EmojiCapable"
             android:isAsciiCapable="true"
     />
+    <subtype android:icon="@drawable/ic_ime_switcher_dark"
+            android:label="@string/subtype_generic"
+            android:subtypeId="0xc14d88b2"
+            android:imeSubtypeLocale="ur"
+            android:imeSubtypeMode="keyboard"
+            android:imeSubtypeExtraValue="KeyboardLayoutSet=ur,EmojiCapable"
+    />
     <!-- Emoji subtype has to be an addtional subtype added at boot time because ICS doesn't
          support Emoji. -->
     <!--

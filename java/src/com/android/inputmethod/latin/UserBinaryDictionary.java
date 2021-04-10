@@ -34,6 +34,7 @@ import java.util.Arrays;
 import java.util.Locale;
 
 import javax.annotation.Nullable;
+import android.os.Build;
 
 /**
  * An expandable dictionary that stores the words in the user dictionary provider into a binary
@@ -47,7 +48,9 @@ public class UserBinaryDictionary extends ExpandableBinaryDictionary {
     private static final int HISTORICAL_DEFAULT_USER_DICTIONARY_FREQUENCY = 250;
     private static final int LATINIME_DEFAULT_USER_DICTIONARY_FREQUENCY = 160;
 
-    private static final String[] PROJECTION_QUERY = new String[] {Words.WORD, Words.FREQUENCY};
+    // UNISOC: Bug 1098081,597070 add operation for Words.shortcut
+    private static final int USER_DICT_SHORTCUT_FREQUENCY = 14;
+    private static final String[] PROJECTION_QUERY = new String[] {Words.WORD, Words.FREQUENCY, Words.SHORTCUT};
 
     private static final String NAME = "userunigram";
 
@@ -194,12 +197,18 @@ public class UserBinaryDictionary extends ExpandableBinaryDictionary {
     }
 
     private void addWordsLocked(final Cursor cursor) {
+        // UNISOC: Bug 1098081,597070 add operation for Words.shortcut
+        final boolean hasShortcutColumn = Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN;
         if (cursor == null) return;
         if (cursor.moveToFirst()) {
             final int indexWord = cursor.getColumnIndex(Words.WORD);
+            // UNISOC: Bug 1098081,597070 add operation for Words.shortcut
+            final int indexShortcut = hasShortcutColumn ? cursor.getColumnIndex(Words.SHORTCUT) : 0;
             final int indexFrequency = cursor.getColumnIndex(Words.FREQUENCY);
             while (!cursor.isAfterLast()) {
                 final String word = cursor.getString(indexWord);
+                // UNISOC: Bug 1098081,597070 add operation for Words.shortcut
+                final String shortcut = hasShortcutColumn ? cursor.getString(indexShortcut) : null;
                 final int frequency = cursor.getInt(indexFrequency);
                 final int adjustedFrequency = scaleFrequencyFromDefaultToLatinIme(frequency);
                 // Safeguard against adding really long words.
@@ -208,6 +217,14 @@ public class UserBinaryDictionary extends ExpandableBinaryDictionary {
                     addUnigramLocked(word, adjustedFrequency, false /* isNotAWord */,
                             false /* isPossiblyOffensive */,
                             BinaryDictionary.NOT_A_VALID_TIMESTAMP);
+                    /* UNISOC: Bug 1098081,597070 add operation for Words.shortcut @{ */
+                    if (shortcut != null && shortcut.length() <= MAX_WORD_LENGTH) {
+                        runGCIfRequiredLocked(true /* mindsBlockByGC */);
+                        addUnigramLocked(shortcut, adjustedFrequency, word,
+                            USER_DICT_SHORTCUT_FREQUENCY, true /* isNotAWord */,
+                            false /* isBlacklisted */, BinaryDictionary.NOT_A_VALID_TIMESTAMP);
+                    }
+                    /* @} */
                 }
                 cursor.moveToNext();
             }

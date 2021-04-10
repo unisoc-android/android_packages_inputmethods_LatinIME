@@ -38,6 +38,9 @@ public final class AudioAndHapticFeedbackManager {
     private SettingsValues mSettingsValues;
     private boolean mSoundOn;
 
+    // UNISOC: add for bug1098081,589855 inputmethod interface screen switch with sound
+    private static final int CODE_UNSPECIFIED = -1;
+
     private static final AudioAndHapticFeedbackManager sInstance =
             new AudioAndHapticFeedbackManager();
 
@@ -100,6 +103,10 @@ public final class AudioAndHapticFeedbackManager {
             break;
         case Constants.CODE_SPACE:
             sound = AudioManager.FX_KEYPRESS_SPACEBAR;
+            break;
+        // UNISOC: add for bug1098081,589855 inputmethod interface screen switch with sound
+        case Constants.CODE_UNSPECIFIED:
+            sound = CODE_UNSPECIFIED;
             break;
         default:
             sound = AudioManager.FX_KEYPRESS_STANDARD;

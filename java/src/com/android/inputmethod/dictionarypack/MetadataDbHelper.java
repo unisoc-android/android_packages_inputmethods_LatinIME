@@ -356,6 +356,11 @@ public class MetadataDbHelper extends SQLiteOpenHelper {
      * @return the string representation of the URI
      */
     public static String getMetadataUriAsString(final Context context, final String clientId) {
+        /* UNISOC: Add for Bug 1098081,966396 check clientId is null to avoid java.lang.IllegalArgumentException @{ */
+        if (clientId == null) {
+            return null;
+        }
+        /* @{ */
         SQLiteDatabase defaultDb = MetadataDbHelper.getDb(context, null);
         final Cursor cursor = defaultDb.query(MetadataDbHelper.CLIENT_TABLE_NAME,
                 new String[] { MetadataDbHelper.CLIENT_METADATA_URI_COLUMN },

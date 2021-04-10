@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="label_go_key">"ଯାଅ"</string>
+<string name="label_next_key">"ପର"</string>
+<string name="label_previous_key">"ପୂର୍ବ"</string>
+<string name="label_done_key">"ହୋଇଗଲା"</string>
+<string name="label_send_key">"ପଠାନ୍ତୁ"</string>
+<string name="label_search_key">"ଖୋଜ"</string>
+<string name="label_pause_key">"ବିରତି ନିଅନ୍ତୁ"</string>
+<string name="label_wait_key">"ଅପେକ୍ଷା କରନ୍ତୁ"</string>
+</resources>

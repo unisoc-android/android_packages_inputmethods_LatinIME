@@ -144,7 +144,7 @@
             <key-style
                 latin:styleName="currencyKeyStyle"
                 latin:keySpec="&#x00A3;"
-                latin:moreKeys="&#x00A2;,$,&#x20AC;,&#x00A5;,&#x20B1;" />
+                latin:moreKeys="&#x00A2;,$,&#x20AC;,&#x00A5;,&#x20B1;,&#x20B9;" />
             <key-style
                 latin:styleName="moreCurrency1KeyStyle"
                 latin:keySpec="&#x20AC;" />

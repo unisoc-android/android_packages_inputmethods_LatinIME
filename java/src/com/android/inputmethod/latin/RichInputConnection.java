@@ -409,19 +409,26 @@ public final class RichInputConnection implements PrivateCommandPerformer {
         // test for this explicitly)
         if (INVALID_CURSOR_POSITION != mExpectedSelStart
                 && (cachedLength >= n || cachedLength >= mExpectedSelStart)) {
-            final StringBuilder s = new StringBuilder(mCommittedTextBeforeComposingText);
-            // We call #toString() here to create a temporary object.
-            // In some situations, this method is called on a worker thread, and it's possible
-            // the main thread touches the contents of mComposingText while this worker thread
-            // is suspended, because mComposingText is a StringBuilder. This may lead to crashes,
-            // so we call #toString() on it. That will result in the return value being strictly
-            // speaking wrong, but since this is used for basing bigram probability off, and
-            // it's only going to matter for one getSuggestions call, it's fine in the practice.
-            s.append(mComposingText.toString());
-            if (s.length() > n) {
-                s.delete(0, s.length() - n);
+            /* UNISOC: Bug 1098081,1099738 catch the StringIndexOutOfBoundsException to avoid to crash @{ */
+            try {
+                final StringBuilder s = new StringBuilder(mCommittedTextBeforeComposingText);
+                // We call #toString() here to create a temporary object.
+                // In some situations, this method is called on a worker thread, and it's possible
+                // the main thread touches the contents of mComposingText while this worker thread
+                // is suspended, because mComposingText is a StringBuilder. This may lead to crashes,
+                // so we call #toString() on it. That will result in the return value being strictly
+                // speaking wrong, but since this is used for basing bigram probability off, and
+                // it's only going to matter for one getSuggestions call, it's fine in the practice.
+                s.append(mComposingText.toString());
+                if (s.length() > n) {
+                    s.delete(0, s.length() - n);
+                }
+                return s;
+            } catch (Exception e) {
+                Log.d(TAG, "getTextBeforeCursor occur Exception" + e);
+                return "";
             }
-            return s;
+            /* @} */
         }
         return getTextBeforeCursorAndDetectLaggyConnection(
                 OPERATION_GET_TEXT_BEFORE_CURSOR,

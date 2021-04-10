@@ -395,4 +395,191 @@
     <skip />
     <!-- no translation found for user_dict_fast_scroll_alphabet (5431919401558285473) -->
     <skip />
+    <!--UNISOC: 1194780 add Muti_language resources for Latinime  -->
+    <string name="english_ime_input_options">"ଇନପୁଟ୍‌ ଅପସନ୍‌ ଗୁଡିକ"</string>
+    <string name="use_contacts_for_spellchecking_option_title">"ଯୋଗାଯୋଗ ନାମଗୁଡିକ ଦେଖନ୍ତୁ"</string>
+    <string name="use_contacts_for_spellchecking_option_summary">"ସ୍ପେଲ୍‌ ଚେକର୍‌ ଆପଣଙ୍କ ଯୋଗାଯୋଗ ତାଲିକାରୁ ଏଣ୍ଟ୍ରିଗୁଡିକୁ ବ୍ୟବହାର କରେ" </string>
+    <string name="vibrate_on_keypress">"କିପ୍ରେସ୍‌ ଉପରେ ଭାଇବ୍ରେଟ୍‌"</string>
+    <string name="sound_on_keypress">"କିପ୍ରେସ୍‌ ଉପରେ ଶବ୍ଦ"</string>
+    <string name="popup_on_keypress">"କିପ୍ରେସ୍‌ ଉପରେ ପପ୍‌ଅପ୍‌"</string>
+    <string name="settings_screen_preferences">"ପସନ୍ଦଗୁଡ଼ିକ"</string>
+    <string name="settings_screen_accounts">"ଆକାଉଣ୍ଟ &amp; ପ୍ରାଇଭେସି"</string>
+    <string name="settings_screen_appearance">"ବାହ୍ୟରୂପ ଓ ଲେ\'ଆଉଟ୍‍"</string>
+    <string name="settings_screen_gesture">"ଜେଶ୍ଚର୍‌ ଟାଇପିଂ"</string>
+    <string name="settings_screen_correction">"ଲେଖା ସୁଧାରକରଣ"</string>
+    <string name="settings_screen_advanced">"ଉନ୍ନତ"</string>
+    <string name="settings_screen_theme">"ଥିମ୍"</string>
+    <string name="enable_split_keyboard">"ସ୍ପ୍ଲିଟ୍‌ କିବୋର୍ଡ଼ ସକ୍ଷମକୃତ କରନ୍ତୁ"</string>
+    <string name="cloud_sync_title">"ଗୁଗୁଲ୍‌ କିବୋର୍ଡ଼ ସିଙ୍କ୍‌"</string>
+    <string name="cloud_sync_summary">"ସିଙ୍କ୍‌ ଟର୍ଣ୍ଣ ଅନ୍‌ ଅଛି"</string>
+    <string name="cloud_sync_summary_disabled">"ଆପଣଙ୍କ ବ୍ୟକ୍ତିଗତ ଡ଼ିକ୍ସନାରିକୁ ସାରା ଡିଭାଇସରେ ସିଙ୍କ୍‌ କରନ୍ତୁ"</string>
+    <string name="sync_now_title">"ବର୍ତ୍ତମାନ ସିଙ୍କ୍ କରନ୍ତୁ"</string>
+    <string name="clear_sync_data_title">"କ୍ଲାଉଡ଼ ଡାଟା ଅପସାରିତ କରନ୍ତୁ"</string>
+    <string name="clear_sync_data_summary">"ଗୁଗୁଲ୍‌ରୁ ଆପଣଙ୍କ ସିଙ୍କ୍‌ ହୋଇଥିବା ଡାଟାଗୁଡିକୁ ଅପସାରିତ କରେ"</string>
+    <string name="clear_sync_data_confirmation">"ଆପଣଙ୍କ ସିଙ୍କ୍‌ ହୋଇଥିବା ଡାଟାଗୁଡିକ କ୍ଲାଉଡ଼ରୁ ଅପସାରିତ ହେବ | ଆପଣ ସୁନିଶ୍ଚିତକି?"</string>
+    <string name="clear_sync_data_ok">"କାଟ"</string>
+    <string name="cloud_sync_cancel">"ବାତିଲ କରନ୍ତୁ"</string>
+    <string name="cloud_sync_opt_in_text">"ଆପଣଙ୍କ ବ୍ୟକ୍ତିଗତ ଡ଼ିକ୍ସନାରି ସିଙ୍କ୍‌ ହେବ ଏବଂ ଗୁଗୁଲ୍‌ ସର୍ଭର୍‍ ଗୁଡିକ ସହ ବ୍ୟାକ ଅପ୍‌ ହେବ | ଶବ୍ଦ ବାରମ୍ବାରତାର ସଂଖ୍ୟାଗତ ସୁଚନାବଳୀ ଆମର ଉତ୍ପାଦ ଗୁଡିକୁ ଉନ୍ନତ କରିବାରେ ସାହାଯ୍ୟ କରିବାକୁ ସଂଗୃହୀତ କରାଯାଇପାରେ | ସମସ୍ତ ସୁଚନାବଳୀର ସଂଗ୍ରହ ଏବଂ ବ୍ୟବହାର <a href="https://www.google.com/policies/privacy"> ଗୁଗଲ୍‍ର ଗୋପନୀୟତା ନୀତି ସହ ଆଜ୍ଞାନୁବର୍ତ୍ତୀ ହେବ</a>"</string>
+    <string name="add_account_to_enable_sync">"ଏହି ଫିଚର୍‌କୁ ସକ୍ଷମକୃତ କରିବାକୁ ଏହି ଡିଭାଇସରେ ଗୋଟିଏ ଗୁଗୁଲ୍‌ ଆକାଉଣ୍ଟ ଯୋଗ କରନ୍ତୁ"</string>
+    <string name="cloud_sync_summary_disabled_work_profile">"ବ୍ୟବସାୟ ଆକାଉଣ୍ଟ ଗୁଡିକପାଇଁ ଗୁଗୁଲ୍‌ ଆପ୍‌ ଗୁଡିକ ସହ ଥିବା ଉପକରଣ ଗୁଡିକ ପାଇଁ ସିଙ୍କ୍‌ ଉପଲବ୍ଧ ନାହିଁ"</string>
+    <string name="include_other_imes_in_language_switch_list">"ଅନ୍ୟ ଇନପୁଟ୍‌ ପ୍ରଣାଳୀକୁ ସୁଚ୍‌ କରନ୍ତୁ"</string>
+    <string name="include_other_imes_in_language_switch_list_summary">"ଭାଷା ସୁଇଚ୍‌ କି ଅନ୍ୟ ଇନପୁଟ୍‌ ପ୍ରଣାଳୀ ଗୁଡିକୁ ମଧ୍ୟ କଭର୍‌ କରେ"</string>
+    <string name="show_language_switch_key">"ଭାଷା ସୁଇଚ୍‌ କି"</string>
+    <string name="show_language_switch_key_summary">"ଦେଖାନ୍ତୁ ଯେତେବେଳେ ଏକାଧିକ ଇନପୁଟ୍‌ ଭାଷାଗୁଡିକୁ ସକ୍ଷମକୃତ ହୁଏ"</string>
+    <string name="key_preview_popup_dismiss_delay">"କି ପପ୍‌ଅପ୍‌ ଡିସ୍‌ମିସ୍‌ ବିଳମ୍ବ"</string>
+    <string name="key_preview_popup_dismiss_no_delay">"ବିଳମ୍ବ ନାହିଁ"</string>
+    <string name="key_preview_popup_dismiss_default_delay">"ଡିଫଲ୍ଟ"</string>
+    <string name="abbreviation_unit_milliseconds">"<xliff:g id="MILLISECONDS">%s</xliff:g> ମିଲିସେକେଣ୍ଡ"</string>
+    <string name="settings_system_default">"ସିଷ୍ଟମ୍‌ ଡିଫଲ୍‌ଟ୍‌"</string>
+    <string name="use_contacts_dict">"ଯୋଗାଯୋଗ ନାମଗୁଡିକୁ ପରାମର୍ଶକରନ୍ତୁ"</string>
+    <string name="use_contacts_dict_summary">"ପରାମର୍ଶ ଏବଂ ସୁଧାର ଗୁଡିକ ପାଇଁ ଯୋଗାଯୋଗ ଗୁଡିକରୁ ନାମଗୁଡିକ ବ୍ୟବହାର କରନ୍ତୁ"</string>
+    <string name="use_personalized_dicts">"ବ୍ୟକ୍ତିଗତକୃତ ପରାମର୍ଶ ଗୁଡିକ"</string>
+    <string name="enable_metrics_logging">"<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g> କୁ ଉନ୍ନତ କରନ୍ତୁ"</string>
+    <string name="use_double_space_period">"ଡବଲ୍‌-ସ୍ପେସ୍‌ ଅବଧି"</string>
+    <string name="use_double_space_period_summary">"ସ୍ପେସ୍‌ବାର୍‌ ଉପରେ ଡବଲ୍‌ ଟାପ୍‌ କରି ଗୋଟିଏ ସ୍ପେସ୍‌ ଦେଲେ ଏକ ଅବଧି ଭର୍ତ୍ତିକରେ"</string>
+    <string name="auto_cap">"ଅଟୋ-କ୍ୟାପିଟାଲାଇଜେସନ୍"</string>
+    <string name="auto_cap_summary">"ପ୍ରତ୍ୟେକ ବାକ୍ୟର ପ୍ରଥମ ଶବ୍ଦକୁ କ୍ୟାପିଟାଲ୍‌ କରନ୍ତୁ"</string>
+    <string name="edit_personal_dictionary">"ପର୍ସନାଲ୍ ଡିକ୍ସନାରୀ"</string>
+    <string name="configure_dictionaries_title">"ଆଡ୍‌-ଅନ୍‌ ଡିକ୍ସନାରି ଗୁଡିକ"</string>
+    <string name="main_dictionary">"ମୁଖ୍ୟ ଡିକ୍ସନାରି"</string>
+    <string name="prefs_show_suggestions">"ପରାମର୍ଶ ସୁଧାରକରଣ ଦେଖାନ୍ତୁ"</string>
+    <string name="prefs_show_suggestions_summary">"ଟାଇପ୍‌ କଲାବେଳେ ପରାମର୍ଶକୃତ ଶବ୍ଦଗୁଡିକୁ ଡିସ୍‌ପ୍ଲେ କରନ୍ତୁ"</string>
+    <string name="auto_correction">"ସ୍ୱୟଂକ୍ରିୟ-ସୁଧାରକରଣ"</string>
+    <string name="auto_correction_summary">"ସ୍ପେସ୍‌ବାର୍‌ ଏବଂ ପଙ୍କଚୁଏସନ୍‌ ସ୍ୱୟଂକ୍ରିୟ ଭାବରେ ଭୁଲ୍‌ ଟାଇପ କରାଯାଇଥିବା ଶବ୍ଦଗୁଡ଼ିକୁ ସୁଧାରିଥାଏ"</string>
+    <string name="auto_correction_threshold_mode_off">"ନିଷ୍କ୍ରିୟ"</string>
+    <string name="auto_correction_threshold_mode_modest">"ବିନୀତ"</string>
+    <string name="auto_correction_threshold_mode_aggressive">"ଆକ୍ରମଣଶୀଳ"</string>
+    <string name="auto_correction_threshold_mode_very_aggressive">"ଖୁବ ଆକ୍ରମଣଶୀଳ"</string>
+    <string name="bigram_prediction">"ପରବର୍ତ୍ତି-ଶବ୍ଦ ପରାମର୍ଶ ଗୁଡିକ"</string>
+    <string name="gesture_input">"ଜେଶ୍ଚର୍‌ ଟାଇପ୍‌କୁ ସକ୍ଷମକୃତ କରନ୍ତୁ"</string>
+    <string name="gesture_input_summary">"ଅକ୍ଷର ଗୁଡିକ ମଧ୍ୟଦେଇ ସ୍ଲାଇଡ଼ କରି ଗୋଟିଏ ଶବ୍ଦ ଇନପୁଟ୍‌ କରନ୍ତୁ"</string>
+    <string name="gesture_preview_trail">"ଜେଶ୍ଚର୍‌ ଟ୍ରେଲ୍‌ ଦେଖାନ୍ତୁ"</string>
+    <string name="gesture_floating_preview_text">"ଡାଇନାମିକ୍‌ ଫ୍ଲୋଟିଂ ପ୍ରିଭିଉ"</string>
+    <string name="gesture_floating_preview_text_summary">"ଜେଶ୍ଚରିଂ କଲାବେଳେ ପରାମର୍ଶକୃତ ଶବ୍ଦକୁ ଦେଖନ୍ତୁ"</string>
+    <string name="gesture_space_aware">"ବାକ୍ୟାଂଶ ଜେଶ୍ଚର୍‌"</string>
+    <string name="gesture_space_aware_summary">"ଜେଶ୍ଚର୍‌ ଗୁଡିକ କଲାବେଳେ ସ୍ପେସ୍‌ କି ରେ ଗତି କରେଇ ସ୍ପେସ୍‌ ଗୁଡିକୁ ଇନପୁଟ୍‌ କରନ୍ତୁ"</string>
+    <string name="voice_input">"ଭଏସ୍‌ ଇନପୁଟ୍‌ କି"</string>
+    <string name="voice_input_disabled_summary">"କୌଣସି ଭଏସ୍‍ ଇନ୍‍‍ପୁଟ୍‍ ପଦ୍ଧତିକୁ ସମର୍ଥ କରାଯାଇନାହିଁ । ଭାଷା ଓ ଇନ୍‍‍ପୁଟ୍‍ ସେଟିଂ ଯାଞ୍ଚ କରନ୍ତୁ ।"</string>
+    <string name="configure_input_method">"ଇନପୁଟ୍‌ ପ୍ରଣାଳୀଗୁଡିକୁ କନ୍‌ଫିଗର୍‌ କରନ୍ତୁ"</string>
+    <string name="language_selection_title">"ଭାଷାଗୁଡିକ"</string>
+    <string name="help_and_feedback">"ସାହାଯ୍ୟ ଓ ମତାମତ"</string>
+    <string name="select_language">"ଭାଷାଗୁଡିକ"</string>
+    <string name="hint_add_to_dictionary">"ସେଭ୍ କରିବା ପାଇଁ ପୁଣି ଥରେ ଟ୍ୟାପ୍ କରନ୍ତୁ"</string>
+    <string name="hint_add_to_dictionary_without_word">"ସେଭ୍ କରିବା ପାଇଁ ଏଠାରେ ଟ୍ୟାପ୍ କରନ୍ତୁ"</string>
+    <string name="has_dictionary">"ଡିକ୍ସନାରି ଉପଲବ୍ଧ"</string>
+    <string name="keyboard_layout">"କିବୋର୍ଡ଼ ଥିମ୍‌"</string>
+    <string name="switch_accounts">"ଆକାଉଣ୍ଟ ବଦଳ କରନ୍ତୁ"</string>
+    <string name="no_accounts_selected">"କୌଣସି ଆକାଉଣ୍ଟ ସିଲେକ୍ଟ କରାଯାଇନାହିଁ"</string>
+    <string name="account_selected">" ବର୍ତ୍ତମାନ <xliff:g id="EMAIL_ADDRESS" example="someone@example.com">%1$s</xliff:g> ବ୍ୟବହାର କରୁଛି"</string>
+    <string name="account_select_ok">"ଠିକଠାକ"</string>
+    <string name="account_select_cancel">"ବାତିଲ କରନ୍ତୁ"</string>
+    <string name="account_select_sign_out">"ସାଇନ୍‌ ଆଉଟ୍‌"</string>
+    <string name="account_select_title">"ବ୍ୟବହାର କରିବାକୁ ଗୋଟିଏ ଆକାଉଣ୍ଟ ସିଲେକ୍ଟ କରନ୍ତୁ"</string>
+    <string name="subtype_en_GB">"ଇଙ୍ଗରାଜୀ (ଇଉକେ)"</string>
+    <string name="subtype_en_US">"ଇଙ୍ଗରାଜୀ (ଇଉଏସ)"</string>
+    <string name="subtype_es_US">"ସ୍ପାନିସ୍‌ (ୟୁଏସ୍‌)"</string>
+    <string name="subtype_hi_ZZ">"ହିଙ୍ଗଲିସ୍‌"</string>
+    <string name="subtype_sr_ZZ">"ସର୍ବିଆନ୍‌ (ଲାଟିନ୍‌)"</string>
+    <string name="subtype_with_layout_en_GB">"ଇଂରାଜୀ (ୟୁକେ) (<xliff:g id="KEYBOARD_LAYOUT" example="QWERTY">%s</xliff:g>)"</string>
+    <string name="subtype_with_layout_en_US">" ଇଂରାଜୀ (ୟୁଏସ୍‌) (<xliff:g id="KEYBOARD_LAYOUT" example="QWERTY">%s</xliff:g>)"</string>
+    <string name="subtype_with_layout_es_US">"ସ୍ପାନିସ୍‌ (ୟୁଏସ୍‌) (<xliff:g id="KEYBOARD_LAYOUT" example="QWERTY">%s</xliff:g>)"</string>
+    <string name="subtype_with_layout_hi_ZZ">"ହିଙ୍ଗଲିସ୍‌ (<xliff:g id="KEYBOARD_LAYOUT" example="QWERTY">%s</xliff:g>)"</string>
+    <string name="subtype_with_layout_sr_ZZ">"ସର୍ବିଆନ୍‌ (<xliff:g id="KEYBOARD_LAYOUT" example="QWERTY">%s</xliff:g>)"</string>
+    <string name="subtype_generic_traditional">"<xliff:g id="LANGUAGE_NAME" example="Nepali">%s</xliff:g> (ପାରମ୍ପରିକ)"</string>
+    <string name="subtype_generic_compact">"<xliff:g id="LANGUAGE_NAME" example="Hindi">%s</xliff:g> (କମ୍ପାକ୍ଟ)"</string>
+    <string name="subtype_no_language">"କୌଣସି ଭାଷାନାହିଁ (ଅକ୍ଷରସମୁହ)"</string>
+    <string name="subtype_no_language_qwerty">"ଅକ୍ଷରସମୁହ (QWERTY)"</string>
+    <string name="subtype_no_language_qwertz">"ଅକ୍ଷରସମୁହ (QWERTZ)"</string>
+    <string name="subtype_no_language_azerty">"ଅକ୍ଷରସମୁହ (AZERTY)"</string>
+    <string name="subtype_no_language_dvorak">"ଅକ୍ଷରସମୁହ (Dvorak)"</string>
+    <string name="subtype_no_language_colemak">"ଅକ୍ଷରସମୁହ (Colemak)"</string>
+    <string name="subtype_no_language_pcqwerty">"ଅକ୍ଷରସମୁହ (PC)"</string>
+    <string name="subtype_emoji">"ଇମୋଜି"</string>
+    <string name="keyboard_theme">"କିବୋର୍ଡ଼ ଥିମ୍‌"</string>
+    <string name="custom_input_styles_title">"କଷ୍ଟମ୍‌ ଇନପୁଟ୍‌ ଷ୍ଟାଇଲ୍‌"</string>
+    <string name="add_style">"ଷ୍ଟାଇଲ୍‌ ଯୋଗକରନ୍ତୁ"</string>
+    <string name="add">"ଯୋଗ କରନ୍ତୁ"</string>
+    <string name="remove">"ବାହାର କରି ଦିଅନ୍ତୁ"</string>
+    <string name="save">"ସଞ୍ଚୟ କରନ୍ତୁ"</string>
+    <string name="subtype_locale">"ଭାଷା"</string>
+    <string name="keyboard_layout_set">"ଲେଆଉଟ୍‌"</string>
+    <string name="custom_input_style_note_message">"ଆପଣଙ୍କ କଷ୍ଟମ୍‌ ଇନପୁଟ୍‌ ଷ୍ଟାଇଲ୍‌କୁ ଆପଣ ଆରମ୍ଭ କଲାପୁର୍ବରୁ ସକ୍ଷମକୃତ କରିବା ଦରକାର | ଆପଣ ଏହାକୁ ବର୍ତ୍ତମାନ ସକ୍ଷମକୃତ କରିବାକୁ ଚାହାଁନ୍ତିକି?"</string>
+    <string name="enable">"ଏନାବଲ୍"</string>
+    <string name="not_now">"ବର୍ତ୍ତମାନ ନୁହେଁ"</string>
+    <string name="custom_input_style_already_exists">"ସମାନ ଇନପୁଟ୍‌ ଷ୍ଟାଇଲ୍‌ ଆଗରୁ ବିଦ୍ୟମାନ ରହିଛି: <xliff:g id="INPUT_STYLE_NAME" example="English(Dvorak)">%s</xliff:g>"</string>
+    <string name="prefs_keypress_vibration_duration_settings">"ଭାଇବ୍ରେସନ ଅବଧିକୁ କିପ୍ରେସ୍‌ କରନ୍ତୁ"</string>
+    <string name="prefs_keypress_sound_volume_settings">"ସାଉଣ୍ଡ ଭଲ୍ୟୁମକୁ କିପ୍ରେସ୍‌ କରନ୍ତୁ"</string>
+    <string name="prefs_key_longpress_timeout_settings">"କି ଲଙ୍ଗ ପ୍ରେସ୍‌ ବିଳମ୍ବ"</string>
+    <string name="prefs_enable_emoji_alt_physical_key">"ଫିଜିକାଲ୍‌ କିବୋର୍ଡ଼ ପାଇଁ ଇମୋଜି"</string>
+    <string name="prefs_enable_emoji_alt_physical_key_summary">"ଫିଜିକାଲ୍‌ ଅଲ୍‌ଟ୍‌ କି ଇମୋଜି ପ୍ୟାଲେଟ୍‌କୁ ଦେଖାଏ"</string>
+    <string name="button_default">"ଡିଫଲ୍ଟ"</string>
+    <string name="setup_welcome_title">"<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g> କୁ ସ୍ୱାଗତ"</string>
+    <string name="setup_welcome_additional_description">"ଜେଶ୍ଚର୍‌ ଟାଇପିଂ ସହ"</string>
+    <string name="setup_start_action">"ଆରମ୍ଭ କରନ୍ତୁ"</string>
+    <string name="setup_next_action">"ପରବର୍ତ୍ତୀ ପଦକ୍ଷେପ"</string>
+    <string name="setup_steps_title">"<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g> ସେଟ୍‌ ଅପ୍‌ କରୁଛି"</string>
+    <string name="setup_step1_title">"<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g> ସକ୍ଷମକୃତ"</string>
+    <string name="setup_step1_instruction">"ଦୟାକରି ଆପଣଙ୍କ ଭାଷା:&amp; ଇନପୁଟ୍ ସେଟିଂରେ "<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>"ଯାଂଚ କରନ୍ତୁ । ଏହା ଆପଣଙ୍କୁ ଆପଣଙ୍କ ଉପକରଣରେ ଚାଲୁ ହେବା ପାଇଁ ଅନୁମତି ଦେବ ।"</string>
+    <string name="setup_step1_finished_instruction">"<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g> ଆପଣଙ୍କ ଭାଷା:&amp; ଇନପୁଟ୍ ସେଟିଂରେ ଏନାବଲ୍ ହୋଇଛି, ତେଣୁ ଏହି ସୋପାନ ଶେଷ ହୋଇଛି । ପରବର୍ତ୍ତୀ ସୋପାନକୁ ଯିବା!"</string>
+    <string name="setup_step1_action">"ସେଟିଂସ୍‌ରେ ସକ୍ଷମକୃତ କରନ୍ତୁ"</string>
+    <string name="setup_step2_title">"<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g> କୁ ସୁଇଚ୍‌ କରନ୍ତୁ |"</string>
+    <string name="setup_step2_instruction">"ତା’ପରେ, \"<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>\" କୁ ଆପଣଙ୍କର ଆକ୍ଟିଭ୍‌ ଟେକ୍ସଟ୍‌-ଇନପୁଟ୍‌ ପ୍ରଣାଳୀ ରୁପେ ସିଲେକ୍ଟ କରନ୍ତୁ"</string>
+    <string name="setup_step2_action">"ଇନପୁଟ୍‌ ପ୍ରଣାଳୀ ଗୁଡିକୁ ସୁଇଚ୍‌ କରନ୍ତୁ"</string>
+    <string name="setup_step3_title">"ଅଭିନନ୍ଦନ, ଆପଣଙ୍କର ସବୁକିଛି ସେଟ୍‌ ହୋ‌ଇଯାଇଛି!"</string>
+    <string name="setup_step3_instruction">"ବର୍ତ୍ତମାନ ଆପଣ <xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>ରେ ଆପଣଙ୍କର ସମସ୍ତ ପସନ୍ଦର ଆପ୍‌ଗୁଡିକୁ ଟାଇପ୍‌ କରିପାରିବେ |"</string>
+    <string name="setup_step3_action">"ଅତିରିକ୍ତ ଭାଷାଗୁଡିକୁ କନ୍‌ଫିଗର୍‌ କରନ୍ତୁ"</string>
+    <string name="setup_finish_action">"ସମାପ୍ତହେଲା"</string>
+    <string name="show_setup_wizard_icon">"ଆପ୍‌ ଆଇକନ୍‌ ଦେଖାନ୍ତୁ"</string>
+    <string name="show_setup_wizard_icon_summary">"ଲଞ୍ଚର୍‌ରେ ଆପ୍ଲିକେସନ୍‌ ଆଇକନ୍‌ ଡିସପ୍ଲେ କରନ୍ତୁ"</string>
+    <string name="app_name">"ଡିକ୍ସନାରି ପ୍ରଦାନକାରୀ"</string>
+    <string name="dictionary_provider_name">"ଡିକ୍ସନାରି ପ୍ରଦାନକାରୀ"</string>
+    <string name="dictionary_service_name">"ଡିକ୍ସନାରି ସର୍ଭିସ୍‌"</string>
+    <string name="download_description">"ଡିକ୍ସନାରି ଅଦ୍ୟତନ ସୁଚନା"</string>
+    <string name="dictionary_settings_title">"ଆଡ୍‌-ଅନ୍‌ ଡିକ୍ସନାରି ଗୁଡିକ"</string>
+    <string name="dictionary_install_over_metered_network_prompt">"ଡିକ୍ସନାରି ଉପଲବ୍ଧ"</string>
+    <string name="dictionary_settings_summary">"ଡିକ୍ସନାରି ଗୁଡିକପାଇଁ ସେଟିଂସ୍‌"</string>
+    <string name="user_dictionaries">"ୟୁଜର୍‌ ଡିକ୍ସନାରିଗୁଡିକ"</string>
+    <string name="default_user_dict_pref_name">"ୟୁଜର୍‌ ଡିକ୍ସନାରି"</string>
+    <string name="dictionary_available">"ଡିକ୍ସନାରି ଉପଲବ୍ଧ"</string>
+    <string name="dictionary_downloading">"ବର୍ତ୍ତମାନ ଡ଼ାଉନଲୋଡ଼ କରୁଛି"</string>
+    <string name="dictionary_installed">"ସ୍ଥାପିତ"</string>
+    <string name="dictionary_disabled">"ଇନଷ୍ଟଲ୍‌‍ ହେଲା, ଅକ୍ଷମକୃତ ହେଲା"</string>
+    <string name="cannot_connect_to_dict_service">"ଡିକ୍ସନାରି ସର୍ଭିସ୍‌ ସହ ସଂଯୋଜିତ କରିବାରେ ସମସ୍ୟା"</string>
+    <string name="no_dictionaries_available">"କୌଣସି ଡିକ୍ସନାରି ଉପଲବ୍ଧ ନାହିଁ"</string>
+    <string name="check_for_updates_now">"ରିଫ୍ରେସ୍‌"</string>
+    <string name="last_update">"ଗତ ଅଦ୍ୟତନକୃତ"</string>
+    <string name="message_updating">"ଅଦ୍ୟତନ ଗୁଡିକପାଇଁ ଯାଞ୍ଚକରୁଛି"</string>
+    <string name="message_loading">"&#x2026;ଲୋଡ୍‍ ହେଉଅଛି"</string>
+    <string name="main_dict_description">"ମୁଖ୍ୟ ଡିକ୍ସନାରି"</string>
+    <string name="cancel">"ବାତିଲ କରନ୍ତୁ"</string>
+    <string name="go_to_settings">"ସଂସ୍ଥାପନା"</string>
+    <string name="install_dict">"ଇନଷ୍ଟଲ୍‌"</string>
+    <string name="cancel_download_dict">"ବାତିଲ କରନ୍ତୁ"</string>
+    <string name="delete_dict">"କାଟ"</string>
+    <string name="should_download_over_metered_prompt">"ଆପଣଙ୍କ ମୋବାଇଲ ଡିଭାଇସ୍‌ରେ ନିର୍ବାଚିତ ଭାଷା ପାଇଁ ଏକ ଡିକ୍ସନାରୀ ଉପଲବ୍ଧ ରହିଛି. <br/>ଆପଣଙ୍କ ଲେଖିବାର ଅଭିଜ୍ଞତାକୁ ଉନ୍ନତ କରିବା ପାଇଁ ଆମେ <xliff:g id="LANGUAGE_NAME" example="English">%1$s</xliff:g> <b>ଡାଉନଲୋଡ</b>କରିବା ପାଇଁ ସୁପାରିଶ କରିବୁ. <br/> <br/> 3G ରେ ଡାଉନଲୋଡ ପାଇଁ ଏକ ବା ଦୁଇ ମିନିଟ ଲାଗିପାରେ. ଯଦି ଆପଣଙ୍କର <b>ଅସୀମିତ ଡାଟା ପ୍ଲାନ</b> <b>ନଥାଏ ତେବେ ଚାର୍ଜଗୁଡ଼ିକ ପ୍ରଯୋଜ୍ୟ ହୋ‍ଇପାରେ</b>.<b>ଯଦି ଆପଣଙ୍କ କେଉଁ ଡାଟା ପ୍ଲାନ ଅଛି ଜାଣିନାହାନ୍ତି, ଆମେ ଆପଣଙ୍କୁ ସ୍ୱୟଂକ୍ରିୟ ଭାବେ ଡାଉନଲୋଡା ଆରଭ କରିବା ପାଇଁ ଏକ WiFi ସଂଯୋଗ ୍ଖୋଜିନେବା ପାଇ~ମ ସୁପାରିଶ କରିବୁ.</b><b>ଟିପ୍‍: ଆପଣା ଆପଣାଙ୍କ ମୋବାଇଲ ଡିଭାଇସରେ‍</b> <b> ସେଟିଂସ୍‍</b> ମେନ୍ୟୁରେ <b> ଭାଷା:&amp;ଇନ୍‍ପୁଟ୍‍</b> ରେ ଯାଇ ଡିକ୍ସନାରୀଗୁଡଇକୁ ଡାଉନଲୋଡା ଏବଂ ରେମୁଭ କରିପାରିବେ."</string>
+    <string name="download_over_metered">"ବର୍ତ୍ତମାନ ଡ଼ାଉନଲୋଡ଼ କରନ୍ତୁ(<xliff:g id="SIZE_IN_MEGABYTES" example="0.7">%1$.1f</xliff:g>MB)"</string>
+    <string name="do_not_download_over_metered">"Wi-Fiରେ ଡ଼ାଉନଲୋଡ଼ କରନ୍ତୁ"</string>
+    <string name="dict_available_notification_title">"<xliff:g id="LANGUAGE_NAME" example="English">%1$s</xliff:g> ପାଇଁ ଗୋଟିଏ ଡିକ୍ସନାରି ଉପଲବ୍ଧ ଅଛି"</string>
+    <string name="dict_available_notification_description">"ରିଭିଉ ଏବଂ ଡ଼ାଉନଲୋଡ଼ କରିବାକୁ ଦବାନ୍ତୁ"</string>
+    <string name="toast_downloading_suggestions">"ଡ଼ାଉନଲୋଡ଼ କରୁଛି: <xliff:g id="LANGUAGE_NAME" example="English">%1$s</xliff:g> ପାଇଁ ପରାମର୍ଶ ଦେଉଛି; ଶୀଘ୍ର ପ୍ରସ୍ତୁତ ହେବ |"</string>
+    <string name="version_text">"ସଂସ୍କରଣ <xliff:g id="VERSION_NUMBER" example="1.0.1864.643521">%1$s</xliff:g>"</string>
+    <string name="user_dict_settings_add_menu_title">"ଯୋଗ କରନ୍ତୁ"</string>
+    <string name="user_dict_settings_add_dialog_title">"ଶବ୍ଦକୋଷରେ ଯୋଗ କରନ୍ତୁ"</string>
+    <string name="user_dict_settings_add_screen_title">"ଖଣ୍ଡବାକ୍ୟ"</string>
+    <string name="user_dict_settings_add_dialog_more_options">"ଅଧିକ ବିକଳ୍ପ"</string>
+    <string name="user_dict_settings_add_dialog_less_options">"କମ୍ ବିକଳ୍ପଗୁଡ଼ିକ"</string>
+    <string name="user_dict_settings_add_dialog_confirm">"ଠିକଠାକ"</string>
+    <string name="user_dict_settings_add_word_option_name">"ଶବ୍ଦ:"</string>
+    <string name="user_dict_settings_add_shortcut_option_name">"ସର୍ଟକଟ୍:"</string>
+    <string name="user_dict_settings_add_locale_option_name">"ଭାଷା:"</string>
+    <string name="user_dict_settings_add_word_hint">"ଏକ ଶବ୍ଦ ଟାଇପ୍ କରନ୍ତୁ"</string>
+    <string name="user_dict_settings_add_shortcut_hint">"ବୈକଳ୍ପିକ ସର୍ଟକଟ୍"</string>
+    <string name="user_dict_settings_edit_dialog_title">"ଶବ୍ଦ ସମ୍ପାଦନା କରନ୍ତୁ"</string>
+    <string name="user_dict_settings_context_menu_edit_title">"ସଂଶୋଧନ କରନ୍ତୁ"</string>
+    <string name="user_dict_settings_context_menu_delete_title">"କାଟ"</string>
+    <string name="user_dict_settings_empty_text">"ଆପଣଙ୍କର ୟୁଜର ଡିକ୍ସନାରୀରେ କୌଣସି ଶବ୍ଦ ନାହିଁ । ଏକ ଶବ୍ଦ ମିଶାଇବା ପାଇଁ ଆଡ୍(+) ବଟନ୍ ଟ୍ୟାପ୍ କରନ୍ତୁ ।"</string>
+    <string name="user_dict_settings_all_languages">"ସମସ୍ତ ଭାଷା ପାଇଁ"</string>
+    <string name="user_dict_settings_more_languages">"ଅନେକ ଗୁଡ଼ିଏ ଭାଷା…"</string>
+    <string name="user_dict_settings_delete">"କାଟ"</string>
+    <string name="user_dict_fast_scroll_alphabet">"\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
 </resources>

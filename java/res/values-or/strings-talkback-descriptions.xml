@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="spoken_use_headphones">"ପାସୱର୍ଡ କୀ ବଡ଼ ପାଟିରେ ଶୁଣିବା ପାଇଁ ଏକ ହେଡସେଟ୍ ରେ ପ୍ଲଗ୍ ଇନ୍ କରନ୍ତୁ"</string>
+<string name="spoken_current_text_is">"କରେଣ୍ଟ ଟେକ୍ସଟ ହେଉଛି %s"</string>
+<string name="spoken_no_text_entered">"କୌଣସି ଟେକ୍ସଟ ପ୍ରବିଷ୍ଟ କରାଯାଇ ନାହିଁ"</string>
+<string name="spoken_auto_correct">"<xliff:g id="KEY_NAME" example="Space">%1$s</xliff:g> ଠିକ୍ କରୁଛି <xliff:g id="ORIGINAL_WORD">%2$s</xliff:g> ରୁ <xliff:g id="CORRECTED_WORD">%3$s</xliff:g>"</string>
+<string name="spoken_auto_correct_obscured">"<xliff:g id="KEY_NAME" example="Space">%1$s</xliff:g> ଅଟୋ-କରେକସନ୍ କରୁଛି"</string>
+<string name="spoken_empty_suggestion">"କୌଣସି ପରାମର୍ଶ ନାହିଁ"</string>
+<string name="spoken_description_unknown">"ଅଜଣା କ୍ୟାରେକ୍ଟର"</string>
+<string name="spoken_description_symbols_shift">"ଅଧିକ ସିମ୍ବଲ୍‌ଗୁଡିକ"</string>
+<string name="spoken_description_shift_shifted">"ସିଫ୍‌ଟ୍‌"</string>
+<string name="spoken_description_symbols_shift_shifted">"ସିମ୍ବଲ୍‌ଗୁଡିକ"</string>
+<string name="spoken_description_caps_lock">"ସିଫ୍‌ଟ୍‌"</string>
+<string name="spoken_description_delete">"କାଟ"</string>
+<string name="spoken_description_to_symbol">"ସିମ୍ବଲ୍‌ଗୁଡିକ"</string>
+<string name="spoken_description_to_alpha">"ଅକ୍ଷରଗୁଡିକ"</string>
+<string name="spoken_description_to_numeric">"ସଂଖ୍ୟାଗୁଡିକ"</string>
+<string name="spoken_description_settings">"ସଂସ୍ଥାପନା"</string>
+<string name="spoken_description_space">"ସ୍ଥାନ"</string>
+<string name="spoken_description_mic">"ଭଏସ୍ ଇନପୁଟ୍"</string>
+<string name="spoken_description_emoji">"ଇମୋଜି"</string>
+<string name="spoken_description_return">"ଫେରନ୍ତୁ"</string>
+<string name="spoken_description_search">"ଖୋଜ"</string>
+<string name="spoken_description_dot">"ଡଟ୍‌"</string>
+<string name="spoken_description_language_switch">"ଭାଷା ସୁଇଚ୍‌ କରନ୍ତୁ"</string>
+<string name="spoken_description_action_next">"ପର"</string>
+<string name="spoken_description_action_previous">"ପୁର୍ବବର୍ତ୍ତି"</string>
+<string name="spoken_description_shiftmode_on">"ସିଫ୍‌ଟ୍‌ ସକ୍ଷମକୃତ"</string>
+<string name="spoken_description_shiftmode_locked">"କ୍ୟାପ୍‌ସ୍‌ ଲକ୍‌ ସକ୍ଷମକୃତ"</string>
+<string name="spoken_description_mode_symbol">"ସିମ୍ବଲ୍‌ ମୋଡ଼"</string>
+<string name="spoken_description_mode_symbol_shift">"ଅଧିକ ସିମ୍ବଲ୍‌ ମୋଡ଼"</string>
+<string name="spoken_description_mode_alpha">"ଅକ୍ଷରଗୁଡିକ ମୋଡ଼"</string>
+<string name="spoken_description_mode_phone">"ଫୋନ ମୋଡ଼"</string>
+<string name="spoken_description_mode_phone_shift">"ଫୋନ ସିମ୍ବଲ୍‌ ମୋଡ଼"</string>
+<string name="announce_keyboard_hidden">"କିବୋର୍ଡ଼ ଲୁକ୍କାୟିତ"</string>
+<string name="announce_keyboard_mode">"<xliff:g id="KEYBOARD_MODE" example="email">%s</xliff:g> କିବୋର୍ଡ଼ ଦେଖାଉଛି"</string>
+<string name="keyboard_mode_date">"ତାରିଖ"</string>
+<string name="keyboard_mode_date_time">"ତାରିଖ ଓ ସମୟ"</string>
+<string name="keyboard_mode_email">"ଇମେଲ"</string>
+<string name="keyboard_mode_im">"ବାର୍ତ୍ତା ପଠାଉଛି"</string>
+<string name="keyboard_mode_number">"ସଂଖ୍ୟା"</string>
+<string name="keyboard_mode_phone">"ଫୋନ"</string>
+<string name="keyboard_mode_text">"ଲେଖନ୍ତୁ"</string>
+<string name="keyboard_mode_time">"ସମୟ"</string>
+<string name="keyboard_mode_url">"ୟୁଆର୍‌ଏଲ୍‌"</string>
+<string name="spoken_descrption_emoji_category_recents">"ନିକଟ ଅତୀତଗୁଡ଼ିକର"</string>
+<string name="spoken_descrption_emoji_category_people">"ଲୋକମାନେ"</string>
+<string name="spoken_descrption_emoji_category_objects">"ବସ୍ତୁଗୁଡିକ"</string>
+<string name="spoken_descrption_emoji_category_nature">"ପ୍ରକୃତି"</string>
+<string name="spoken_descrption_emoji_category_places">"ସ୍ଥାନଗୁଡିକ"</string>
+<string name="spoken_descrption_emoji_category_symbols">"ସିମ୍ବଲ୍‌ଗୁଡିକ"</string>
+<string name="spoken_descrption_emoji_category_flags">"ପତାକା"</string>
+<string name="spoken_descrption_emoji_category_eight_smiley_people">"ସ୍ମାଇଲି ଏବଂ ଲୋକେ"</string>
+<string name="spoken_descrption_emoji_category_eight_animals_nature">"ପଶୁ ଏବଂ ପ୍ରକୃତି"</string>
+<string name="spoken_descrption_emoji_category_eight_food_drink">"ଖାଦ୍ୟ ଏବଂ ପାନୀୟ"</string>
+<string name="spoken_descrption_emoji_category_eight_travel_places">"ଯାତ୍ରା ଏବଂ ସ୍ଥାନ"</string>
+<string name="spoken_descrption_emoji_category_eight_activity">"ଘଟଣା"</string>
+<string name="spoken_descrption_emoji_category_emoticons">"ଇମୋଟିକନ୍‌ଗୁଡିକ"</string>
+<string name="spoken_description_upper_case">"କ୍ୟାପିଟାଲ୍‌ <xliff:g id="LOWER_LETTER" example="A, E, ligature">%s</xliff:g>"</string>
+<string name="spoken_letter_0049">"କ୍ୟାପିଟାଲ୍‌ I"</string>
+<string name="spoken_letter_0130">"କ୍ୟାପିଟାଲ୍‌ I, ଉପରୋକ୍ତ ବିନ୍ଦୁ"</string>
+<string name="spoken_symbol_unknown">"ଅଜଣା ସିମ୍ବଲ୍‌"</string>
+<string name="spoken_emoji_unknown">"ଅଜଣା ଇମୋଜି"</string>
+<string name="spoken_emoticon_3A_2D_21_20">"ବିରକ୍ତି ମୁହଁ"</string>
+<string name="spoken_emoticon_3A_2D_24_20">"ଲଜ୍ଜିତ ମୁହଁ"</string>
+<string name="spoken_emoticon_42_2D_29_20">"ସନ୍‌ଗ୍ଲାସ୍‌ ପିନ୍ଧିଥିବା ମୁହଁ"</string>
+<string name="spoken_emoticon_3A_4F_20">"ଆଶ୍ଚର୍ଯାନ୍ୱିତ ମୁହଁ"</string>
+<string name="spoken_emoticon_3A_2D_2A_20">"ଚୁମ୍ବନ ଦେଉଥିବା ମୁହଁ"</string>
+<string name="spoken_emoticon_3A_2D_5B_20">"ଚିନ୍ତାମଗ୍ନ ମୁହଁ"</string>
+<string name="spoken_open_more_keys_keyboard">"ବୈକଳ୍ପିକ କ୍ୟାରେକ୍ଟର ଗୁଡିକ ଉପଲବ୍ଧ"</string>
+<string name="spoken_close_more_keys_keyboard">"ବୈକଳ୍ପିକ କ୍ୟାରେକ୍ଟର ଗୁଡିକ ଛାଡ଼ିଦିଆଯାଇଛି"</string>
+<string name="spoken_open_more_suggestions">"ବୈକଳ୍ପିକ ପରାମର୍ଶ ଗୁଡିକ ଉପଲବ୍ଧ"</string>
+<string name="spoken_close_more_suggestions">"ବୈକଳ୍ପିକ ପରାମର୍ଶ ଗୁଡିକ ଛାଡ଼ିଦିଆଯାଇଛି"</string>
+</resources>

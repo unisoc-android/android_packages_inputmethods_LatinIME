@@ -356,11 +356,13 @@ public final class Settings implements SharedPreferences.OnSharedPreferenceChang
     public static boolean readShowSetupWizardIcon(final SharedPreferences prefs,
             final Context context) {
         if (!prefs.contains(PREF_SHOW_SETUP_WIZARD_ICON)) {
-            final ApplicationInfo appInfo = context.getApplicationInfo();
+            /*final ApplicationInfo appInfo = context.getApplicationInfo();
             final boolean isApplicationInSystemImage =
                     (appInfo.flags & ApplicationInfo.FLAG_SYSTEM) != 0;
+                    */
             // Default value
-            return !isApplicationInSystemImage;
+            //!isApplicationInSystemImage
+            return context.getResources().getBoolean(R.bool.is_launcher_enabled);
         }
         return prefs.getBoolean(PREF_SHOW_SETUP_WIZARD_ICON, false);
     }

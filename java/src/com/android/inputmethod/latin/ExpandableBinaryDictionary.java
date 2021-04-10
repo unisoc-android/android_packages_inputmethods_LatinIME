@@ -312,6 +312,17 @@ abstract public class ExpandableBinaryDictionary extends Dictionary {
         }
     }
 
+    /* UNISOC: Bug 1098081,597070 add operation for Words.shortcut @{ */
+    protected void addUnigramLocked(final String word, final int frequency,
+            final String shortcutTarget, final int shortcutFreq, final boolean isNotAWord,
+            final boolean isBlacklisted, final int timestamp) {
+        if (!mBinaryDictionary.addUnigramEntry(word, frequency, shortcutTarget, shortcutFreq,
+            false /* isBeginningOfSentence */, isNotAWord, isBlacklisted, timestamp)) {
+            Log.e(TAG, "Cannot add unigram entry. word: " + word);
+        }
+    }
+    /* @} */
+
     /**
      * Dynamically remove the unigram entry from the dictionary.
      */

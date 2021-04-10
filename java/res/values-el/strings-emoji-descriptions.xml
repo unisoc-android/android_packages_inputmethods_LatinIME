@@ -1164,6 +1164,8 @@
     <string name="spoken_emoji_1F6C3" msgid="1176342001834630675">"Τελωνείο"</string>
     <string name="spoken_emoji_1F6C4" msgid="1477622834179978886">"Παραλαβή αποσκευών"</string>
     <string name="spoken_emoji_1F6C5" msgid="2495834050856617451">"Απολεσθείσες αποσκευές"</string>
+    <!--UNISOC: 1194780 add Muti_language resources for Latinime  -->
+    <string name="spoken_emoji_1F235">"Τετραγωνισμένο ιδεογράφημα πλήρης κατοχή"</string>
     <!-- no translation found for spoken_emoji_1F6CB (3573872215992460856) -->
     <skip />
     <!-- no translation found for spoken_emoji_1F6CC (5533098630848925915) -->

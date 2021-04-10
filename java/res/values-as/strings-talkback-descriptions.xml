@@ -99,4 +99,11 @@
     <string name="spoken_close_more_keys_keyboard" msgid="3524914657934712026">"বিকল্প বৰ্ণবোৰ অগ্ৰাহ্য কৰা হৈছে"</string>
     <string name="spoken_open_more_suggestions" msgid="4231720702882969760">"বিকল্প পৰামর্শ আছে"</string>
     <string name="spoken_close_more_suggestions" msgid="9118455416075032839">"বিকল্প পৰামর্শবোৰ অগ্ৰাহ্য কৰা হৈছে"</string>
+    <!--UNISOC: 1194780 add Muti_language resources for Latinime  -->
+    <string name="spoken_descrption_emoji_category_flags">"ফ্লেগছ"</string>
+    <string name="spoken_descrption_emoji_category_eight_smiley_people">"স্মাইলি আৰু মানুহ"</string>
+    <string name="spoken_descrption_emoji_category_eight_animals_nature">"জীৱ-জন্তু আৰু প্ৰকৃতি"</string>
+    <string name="spoken_descrption_emoji_category_eight_food_drink">"খাদ্য আৰু পানীয়"</string>
+    <string name="spoken_descrption_emoji_category_eight_travel_places">"যাত্ৰা আৰু ঠাইসমূহ"</string>
+    <string name="spoken_descrption_emoji_category_eight_activity">"কাৰ্য্যকলাপ"</string>
 </resources>

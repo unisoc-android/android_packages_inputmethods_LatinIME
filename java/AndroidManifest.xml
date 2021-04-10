@@ -90,6 +90,7 @@
                 android:label="@string/english_ime_name"
                 android:icon="@drawable/ic_launcher_keyboard"
                 android:launchMode="singleTask"
+                android:enabled="@bool/is_launcher_enabled"
                 android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

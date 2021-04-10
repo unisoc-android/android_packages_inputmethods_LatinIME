@@ -27,7 +27,7 @@
     <key-style
         latin:styleName="currencyKeyStyle"
         latin:keySpec="&#x20AC;"
-        latin:moreKeys="&#x00A2;,&#x00A3;,$,&#x00A5;,&#x20B1;" />
+        latin:moreKeys="&#x00A2;,&#x00A3;,$,&#x00A5;,&#x20B1;,&#x20B9;" />
     <key-style
         latin:styleName="moreCurrency1KeyStyle"
         latin:keySpec="&#x00A3;" />

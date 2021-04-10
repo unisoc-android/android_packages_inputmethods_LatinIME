@@ -216,4 +216,12 @@
     <string name="user_dict_settings_more_languages" msgid="7131268499685180461">"অধিক ভাষা…"</string>
     <string name="user_dict_settings_delete" msgid="110413335187193859">"মচক"</string>
     <string name="user_dict_fast_scroll_alphabet" msgid="5431919401558285473">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <!--UNISOC: 1194780 add Muti_language resources for Latinime  -->
+    <string name="voice_input_disabled_summary">"কোনো ভইচ ইনপুট পদ্ধতি সক্ষম নহয় | লেংগুৱেজ: আৰু ইনপুট চেটিং পৰীক্ষা কৰক |"</string>
+    <string name="hint_add_to_dictionary">"সংৰক্ষণ কৰিবলৈ পুনৰ টেপ কৰক"</string>
+    <string name="hint_add_to_dictionary_without_word">"সংৰক্ষণ কৰিবলৈ ইয়াত টেপ কৰক"</string>
+    <string name="setup_step1_instruction">"অনুগ্ৰহ কৰি পৰীক্ষা কৰক "<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>" আপোনাৰ লেংগুৱেজ আৰু ইনপুট ছেটিংত | এইয়াই আপোনাৰ ডিভাইচত চলি যাবলৈ অনুমোদন জনাব |"</string>
+    <string name="setup_step1_finished_instruction">"<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g> ইতিমধ্যে আপোনাৰ লেংগুৱেজ আৰু ইনপুট ছেটিংত অক্ষম হৈছে, সেয়ে এই পদক্ষেপটি সম্পন্ন হৈছে | পৰৱৰ্তীটোলৈ যাঁওক!"</string>
+    <string name="should_download_over_metered_prompt">"আপোনাৰ ম\'বাইল ডিভাচৰত চয়নিত ভাষাটোৰ এক উপলব্ধ ডিকচনেৰী আছে।<br/> আপোনাৰ টাইপিং অভিজ্ঞতা উন্নত কৰিবলৈ আমি <b>ডিক্সনেৰী</b> <xliff:g id="LANGUAGE_NAME" example="English">%1$s</xliff:g> লৈ ডাউনলোড কৰিবলৈ অনুমোদন কৰিছো।<br/> <br/> প্ৰত্যেকজনে 3G মাধ্যমত ডাউলোডে এক বা দুই মিনিট সময় ল\'ব। যদি আপোনাৰ অসীমিত ডাটা প্লেন নাই <b>তেনেহলে মাশুল প্ৰয়োজ্য হ\'ব পাৰে। </b>.<br/> যদি আপুনি নিশ্চিত নহয় কোনটো ডাটা প্লেন আছে, স্বয়ংক্ৰিয়ভাবে ডাউনলোড আৰম্ভ কৰিবলৈ কোনো Wi-Fi সংযোগ অনুমোদন জনাও।<br/> <br/> পৰামৰ্শ: আপোনাৰ ম\'বাইল ডিভাইচত ছেটিংছলৈ <b>Languages&#160;&amp; input</b>-গৈ ডিকচনেৰীবোৰ <b>Settings</b> ডাউনলোড আৰু আঁতৰাই দিব পাৰিব।"</string>
+    <string name="user_dict_settings_empty_text">"ব্যৱহাৰকাৰী অভিধানত আপোনাৰ কোনো শব্দ নাই। এটা শব্দ যোগ কৰিবলৈ, যোগ (+) বুটামটো টেপ কৰক।"</string>
 </resources>

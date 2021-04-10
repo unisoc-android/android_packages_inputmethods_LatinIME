@@ -152,7 +152,8 @@ final class CustomInputStylePreference extends DialogPreference
         final int count = adapter.getCount();
         for (int i = 0; i < count; i++) {
             final Object item = spinner.getItemAtPosition(i);
-            if (item.equals(itemToSelect)) {
+            // UNISOC: Bug 1098081,597526 AOSP custom input style shows wrong
+            if (item.toString().equals(itemToSelect.toString())) {
                 spinner.setSelection(i);
                 return;
             }
